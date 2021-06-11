@@ -1,0 +1,29 @@
+.navItemBox{
+    overflow: hidden;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    list-style: none;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #63666d;
+}
+.navItemBoxActive{
+    overflow: hidden;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    list-style: none;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34;
+}
+.navItemBox:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    background-color: #282c34;
+}
