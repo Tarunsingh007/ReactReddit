@@ -33,6 +33,7 @@
     padding: 0;
     height: 50px;
     display: flex;
+    color: white;
     align-items: center;
     font-size: 6vh;
     left:10px;
@@ -71,7 +72,7 @@
         padding: 0;
         overflow:hidden;
         height: 50px;
-        color: black!important;
+        color: white!important;
         display: flex;
         align-items: center;
         font-size: 6vw;
