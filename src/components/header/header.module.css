@@ -75,10 +75,11 @@
         color: white!important;
         display: flex;
         align-items: center;
-        font-size: 6vw;
+        font-size: 4vw;
         left:10px;
+        margin-right: 5px;
         position: fixed;
-        width: 120px;
+        width: fit-content;
     }
     .sortBy select{
         margin-left: 10px;
