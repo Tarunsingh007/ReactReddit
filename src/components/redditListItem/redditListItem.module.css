@@ -5,8 +5,8 @@
 .redditListBox{
     background-color: #282c34;
     width: 100%;
+    color:#afb3b9;
     box-sizing: border-box;
-    padding: 10px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -16,16 +16,19 @@
     text-align: center;
     height:100%;
     cursor: context-menu;
-    font-size:30px;
-    width: 22%;
+    font-size: 1rem;
+    min-width: 80px;
+    box-sizing: border-box;
 }
 .subReddit{
     margin:0;
-    font-size: 20px;
+    font-size: 1rem;
     padding: 10px 10px 30px 10px;
     box-sizing: border-box;
-    /* background-color: antiquewhite; */
     text-align: justify;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     text-justify: inter-word;
     width: 100%;
     min-height: 80px;
@@ -40,7 +43,7 @@
 }
 .authorDetails{
     display: flex;
-    font-size: 12px;
+    font-size: .5rem;
     /* background-color: aquamarine; */
     position: absolute;
     bottom: 10px;

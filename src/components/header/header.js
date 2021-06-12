@@ -11,7 +11,7 @@ const Header = ()=>{
 
     return(
         <header className={style.header}>
-            <div>
+            <div className={style.heading}>
                 <div>
                     <span>
                         <p>
